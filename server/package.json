@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0",
+  "description": "",
+  "main": "index.js",
+  "author": "ffff",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "cors": "2.8.4",
+    "express": "4.16.3",
+    "nodemon": "^3.0.1",
+    "pg": "8.0.3",
+    "json2csv": "^6.0.0-alpha.2",
+    "csv-parse": "^3.0.0"
+  },
+  "scripts": {
+    "dev": "nodemon -L index.js",
+    "start": "node index.js"
+  }
+}
